@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mammet_style.css">
+    <script type="text/javascript" src="mammet_letters.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <p class="i18n navbar-text" data-i18n="title">Mammet Speech Converter v1.0 - by Kurenai Nagimae of Balmung
+                -- this tool is provided free and not for profit.</p>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="col-xs-12 row">
+            <div class="col-xs-6">
+                <div class=" align-items-center">
+                    <div class="col-7">
+                        <textarea class="col-xs-12" id="inputTextArea" rows="3" cols="50"
+                            placeholder="Put what you want to mammetify here..."></textarea>
+                    </div>
+                </div>
+                <button onclick="convertInput()">CLicK tO CoNveRT</button>
+            </div>
+        </div>
+
+        <div class="col-xs-12 row">
+            <div class="col-xs-6">
+                <textarea id="outputText" placeholder="... and copy your results from here."
+                    class="col-xs-12"></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
